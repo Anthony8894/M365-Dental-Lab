@@ -21,6 +21,10 @@ For this lab, I created 10 test users and assigned Microsoft 365 Business Premiu
 | Titus Valdez | IT Support Admin | IT | Microsoft 365 Business Premium |
 
 
+## screenshot
+![Active users with Microsoft 365 Business Premium licenses](../screenshots/users/active-users-business-premium.png)
+
+
 ## Why This Matters
 
 User and license management is important because it controls who can access Microsoft 365 services such as Outlook, Teams, OneDrive, SharePoint, and Intune. If a user does not have the correct license, they may not be able to use the tools needed for their job.
