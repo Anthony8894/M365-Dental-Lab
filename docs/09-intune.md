@@ -1,4 +1,4 @@
-# 09 - Microsoft Intune Device Management
+# 09 - Microsoft Intune Device Management :joy:
 
 ## Overview
 
