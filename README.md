@@ -1,6 +1,6 @@
 # M365-Dental-Lab
 
-This is a Microsoft 365 Business Premium lab that I created to practice real-world MSP-style administration tasks. The lab is based on a simulated dental office environment and is meant to help me improve my skills with Microsoft 365, Entra ID, Exchange, Intune, security settings, and documentation.
+This is a **Microsoft 365 Business Premium lab** that I created to practice real-world MSP-style administration tasks. The lab is based on a simulated dental office environment and is meant to help me improve my skills with Microsoft 365, Entra ID, Exchange, Intune, security settings, and documentation.
 
 The goal of this project is not just to click around in the admin center, but to document the process like I would in a real IT support or MSP environment.
 
