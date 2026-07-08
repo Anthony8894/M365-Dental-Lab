@@ -1,5 +1,15 @@
 # VMware Workstation Lab Host
 
+## current lab status 07/07/2026
+
+VMware Workstation Pro has been installed and the first Windows virtual machine has been created.
+
+The first VM is named:
+
+```text
+DL-FRONTDESK-01
+```
+
 ## Overview
 
 This document explains how VMware Workstation Pro will be used in the Microsoft 365 Dental Lab project. These will be worked in conjuction with Entra ID and intune.
@@ -26,19 +36,13 @@ VMware Workstation Pro will allow the lab to:
 * Practice troubleshooting from both the user side and admin side
 * Document device management procedures for the repo
 
-## Planned Lab Design
+## Planned VM Inventory
 
-The VMware host will be used to run Windows endpoint virtual machines for the fake dental lab.
-
-Planned virtual machines:
-
-| VM Name         | Purpose                           | Example User                                                                            |
-| --------------- | --------------------------------- | --------------------------------------------------------------------------------------- |
-| DL-FRONTDESK-01 | Front desk workstation            | [frontdesk@dentallab732.onmicrosoft.com](mailto:frontdesk@dentallab732.onmicrosoft.com) |
-| DL-LABTECH-01   | Dental lab technician workstation | [labtech@dentallab732.onmicrosoft.com](mailto:labtech@dentallab732.onmicrosoft.com)     |
-| DL-MANAGER-01   | Office manager workstation        | [manager@dentallab732.onmicrosoft.com](mailto:manager@dentallab732.onmicrosoft.com)     |
-
-These devices will represent common computers that could exist in a small dental lab or dental office environment.
+| VM Name | Role | Status | Purpose |
+|---|---|---|---|
+| DL-FRONTDESK-01 | Front Desk Workstation | Created | First endpoint for Entra ID and Intune testing |
+| DL-LABTECH-01 | Lab Technician Workstation | Planned | Test different user/device policies |
+| DL-MANAGER-01 | Manager Workstation | Planned | Test manager/admin user scenarios |
 
 ## Recommended VM Configuration
 
@@ -49,7 +53,7 @@ Each virtual machine should start with a simple configuration.
 | Operating System | Windows 11 Pro or Windows 11 Enterprise Evaluation |
 | CPU              | 2 virtual processors                               |
 | Memory           | 4 GB RAM                                           |
-| Disk             | 80 GB virtual disk                                 |
+| Disk             | 64 GB virtual disk                                 |
 | Network          | NAT                                                |
 | Firmware         | UEFI                                               |
 | TPM              | Enabled if available                               |
@@ -114,22 +118,6 @@ VMware Workstation Pro is a better fit for this project because:
 * VM files can be moved to an external SSD later
 * It is simple to open, test, document, and shut down
 
-## Role of the Raspberry Pi
-
-The Raspberry Pi will not be used to host Windows endpoint VMs for this lab.
-
-Instead, the Raspberry Pi can continue to be used for supporting infrastructure and Linux-based services, such as:
-
-* Docker containers
-* Monitoring tools
-* Documentation services
-* Uptime Kuma
-* Grafana
-* Prometheus
-* DNS testing
-* Linux administration practice
-
-The Windows virtual machines for Intune and Entra ID testing will be hosted on VMware Workstation Pro.
 
 ## Microsoft 365 and Intune Testing Goals
 
@@ -165,18 +153,6 @@ The VMware-hosted Windows VMs will be used to test the following Microsoft 365 a
 * Review device compliance status
 * Practice basic endpoint security management
 
-### Documentation
-
-Each completed lab task should be documented in the repo with:
-
-* Goal of the task
-* Admin center used
-* Steps performed
-* Screenshots if available
-* Result
-* Troubleshooting notes
-* What was learned
-
 ## Planned VM Naming Convention
 
 The lab will use a simple naming convention:
@@ -195,19 +171,6 @@ DL-MANAGER-01
 
 This makes the lab easier to understand and keeps the device names realistic for a small dental lab environment.
 
-## Planned User Examples
-
-Example Microsoft 365 users:
-
-| User                                                                                    | Purpose                           |
-| --------------------------------------------------------------------------------------- | --------------------------------- |
-| [frontdesk@dentallab732.onmicrosoft.com](mailto:frontdesk@dentallab732.onmicrosoft.com) | Front desk user                   |
-| [labtech@dentallab732.onmicrosoft.com](mailto:labtech@dentallab732.onmicrosoft.com)     | Lab technician user               |
-| [manager@dentallab732.onmicrosoft.com](mailto:manager@dentallab732.onmicrosoft.com)     | Office manager user               |
-| [billing@dentallab732.onmicrosoft.com](mailto:billing@dentallab732.onmicrosoft.com)     | Billing-related testing           |
-| [support@dentallab732.onmicrosoft.com](mailto:support@dentallab732.onmicrosoft.com)     | Shared mailbox or support testing |
-
-These users can be assigned different licenses, groups, and policies depending on the lab scenario.
 
 ## First VM Build Plan
 
