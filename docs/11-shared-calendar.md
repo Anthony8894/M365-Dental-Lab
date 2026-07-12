@@ -36,3 +36,10 @@ From: dentallabofficialcalendar@DentalLab732.onmicrosoft.com
 * Send on behalf of permissions: Lets the person send an email while showing both names. Example:
 Anthony on behalf of Dental Lab Schedule
 * adding from the members section is also ideal. Usually gives the user read and manage and send as permissions. 
+
+
+## screenshot
+
+![sharedmailbox](../screenshots/sharedmailbox/sharedmailbox-01.png)
+
+I have added a screenshot inside outlook > calendar. Make sure to enable the group calendar on the left side. Anyone in the group can see this event. I have scheduled a fake meeting on monday - 8am for everyone. 
