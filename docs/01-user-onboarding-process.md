@@ -6,80 +6,80 @@ This document explains the user onboarding process for the M365 Dental Lab. The 
 
 In a real MSP or IT support environment, onboarding usually includes creating the user account, assigning the correct license, adding the user to groups, setting up mailbox access, requiring MFA, and confirming that the user can access the tools needed for their role.
 
-## Scenario
+## Required information
 
-A new employee is joining the dental office as a Front Desk Specialist.
+Before creating a new employee account, IT should receive:
 
-New user example:
+* Full name
+* Job title
+* Department
+* Start date
+* Required Microsoft 365 license
+* Required group memberships
+* Required shared mailbox access
+* Required SharePoint access
+* Manager approval
+* Any special access requirements
 
-| Field | Information |
-|---|---|
-| Name | Sarah Frontdesk |
-| Job Title | Front Desk Specialist |
-| Department | Front Office |
-| License | Microsoft 365 Business Premium |
-| Groups | Front Office, All Staff |
-| Shared Mailbox Access | Front Desk Mailbox |
-| MFA Required | Yes |
+Some of the details may be left open, however, for best practices all fields should be filled out. 
 
-## Onboarding Tasks
+## Account standards
 
-The following steps were completed for the new user:
+New Microsoft 365 accounts should use the following username format:
 
-1. Created the user account in the Microsoft 365 Admin Center.
-2. Assigned a Microsoft 365 Business Premium license.
-3. Added job title and department information.
-4. Added the user to the correct groups.
-5. Granted access to the correct shared mailbox.
-6. Required the user to set up MFA.
-7. Verified the user appeared in the active users list.
-8. Confirmed the user had the correct license and group membership.
+firstname.lastname
 
-## Step 1: Create the User
+Example:
 
-The user was created from the Microsoft 365 Admin Center.
+Amelie@dentallab732.onmicrosoft.com
 
-Path used:
+A randomly generated temporary password should be used.
 
-```text
-Microsoft 365 Admin Center > Users > Active users > Add a user
-```
+The temporary password should be shared securely, and the employee should be required to change it during their first sign-in.
 
-![user onboarding](../screenshots/onboarding/user-onboarding-00.png)
+License Standards
 
-## Step 2: fill out basic details
+Microsoft 365 Business Premium is the standard license used in this lab.
 
-In this section, first and last name should be filled out. 
+Different or additional licenses should only be assigned when required for the employee's role and approved by management.
 
-Display name should automatically fill out. 
+Access Standards
 
-In this case username should be a first and last name with a "." in the middle, additionally, we also only have 1 domain available. 
+Employees should only receive access required for their job.
 
-For new users, a standard password will be provided. It will be the first letter of your first and last names. Both of the first Letter of our company name followed with the start date of the new hire and two "!!" at the end. 
+Access may include:
 
-Ex: 
+Department groups
+All Staff group
+Shared mailboxes
+SharePoint sites
+Microsoft Teams
+Department resources
 
-Name: John Moon = JM
-company: Dental Lab = DL
-date of hire: 06/28/2026
+Administrative roles should not be assigned unless they are required and approved.
 
-his standard password would be: JMDL06282026!!
+Security Requirements
 
-![user onboarding1](../screenshots/onboarding/user-onboarding-01.png)
+All new employees should be required to register for multifactor authentication.
 
-## step 3: assign licenses
+The employee should complete MFA registration during their first sign-in.
 
-Next page would be where you would assign licenses. In this case we only have one, in general everyone should have the business premium licenses and more advanced employees can be upgraded upon manager's request. 
+Final Checklist
 
-![user onboarding2](../screenshots/onboarding/user-onboarding-02.png)
+Before completing an onboarding request, confirm:
 
+The employee account was created.
+The username is correct.
+The correct license was assigned.
+Job title and department information were added.
+Group memberships are correct.
+Shared mailbox permissions are correct.
+SharePoint access is correct.
+No unnecessary administrative role was assigned.
+MFA registration is required.
+Temporary credentials were shared securely.
+Related Scenario
 
-## step 4: optional settings
+A complete onboarding example with screenshots is available here:
 
-no optional settings should be allowed, unless the new hire is part of the admin department. 
-
-![user onboarding3](../screenshots/onboarding/user-onboarding-03.png)
-
-## step 5: verify new user
-
-Once everything has been completed. The new user will automatically appear under the "user section". 
+scenarios/new-user-onboarding.md
