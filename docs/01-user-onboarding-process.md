@@ -31,54 +31,57 @@ firstname.lastname
 
 Example:
 
-Amelie@dentallab732.onmicrosoft.com
+Amelie.griffeth@dentallab732.onmicrosoft.com
 
-A randomly generated temporary password should be used.
+A randomly generated temporary password should be used or it may follow the standard password naming scheme
+[first letter of first name][first letter of last name][company name][start date of hire].
 
 The temporary password should be shared securely, and the employee should be required to change it during their first sign-in.
 
-License Standards
+## License Standards
 
 Microsoft 365 Business Premium is the standard license used in this lab.
 
 Different or additional licenses should only be assigned when required for the employee's role and approved by management.
 
-Access Standards
+## Access Standards
 
 Employees should only receive access required for their job.
 
 Access may include:
 
-Department groups
-All Staff group
-Shared mailboxes
-SharePoint sites
-Microsoft Teams
-Department resources
+* Department groups
+* All Staff group
+* Shared mailboxes
+* SharePoint sites
+* Microsoft Teams
+* Department resources
 
 Administrative roles should not be assigned unless they are required and approved.
 
-Security Requirements
+## Security Requirements
 
 All new employees should be required to register for multifactor authentication.
 
 The employee should complete MFA registration during their first sign-in.
 
-Final Checklist
+## Final Checklist
 
 Before completing an onboarding request, confirm:
 
-The employee account was created.
-The username is correct.
-The correct license was assigned.
-Job title and department information were added.
-Group memberships are correct.
-Shared mailbox permissions are correct.
-SharePoint access is correct.
-No unnecessary administrative role was assigned.
-MFA registration is required.
-Temporary credentials were shared securely.
-Related Scenario
+* The employee account was created.
+* The username is correct.
+* The correct license was assigned.
+* Job title and department information were added.
+* Group memberships are correct.
+* Shared mailbox permissions are correct.
+* SharePoint access is correct.
+* No unnecessary administrative role was assigned.
+* MFA registration is required.
+* Temporary credentials were shared securely.
+* Related Scenario
+
+## example scenario
 
 A complete onboarding example with screenshots is available here:
 
