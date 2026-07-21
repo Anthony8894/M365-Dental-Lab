@@ -13,7 +13,8 @@ unfortunately, Josh is leaving the dental lab. His M365 access will therefore be
 5. remove from groups
 6. remove from security groups
 7. convert mailbox to a shared mailbox
-8. move to delete user account
+8. (move to delete user account)
+   1. only move to deleted folder once the shared mailbox is no longer in use.
 
 
 ##  block sign in, force sign out, reset password, remove licenses, remove groups + security groups, delete user
