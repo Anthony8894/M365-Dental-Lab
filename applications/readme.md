@@ -6,6 +6,37 @@ The documents focus on how employees use each application and how common support
 
 Administrative setup, permissions, and organization-wide configuration may be documented separately in the main docs folder.
 
+
+## What Belongs in the Applications Folder
+
+Documents in the applications folder should contain general and reusable information.
+
+Examples include:
+
+* How to access an application
+* How to use common features
+* General troubleshooting steps
+* Common error messages
+* User instructions
+* Help desk troubleshooting checklists
+* When an issue should be escalated
+
+These documents should not normally focus on one specific employee or support ticket.
+
+Example:
+
+applications/teams/teams-troubleshooting.md
+
+This document could explain general troubleshooting for:
+
+* Teams sign-in problems
+* Missing teams or channels
+* Camera and microphone issues
+* Notification problems
+* Teams not opening
+* Files not loading
+
+
 ## outlook
 
 The Outlook folder contains documentation related to email, calendars, and shared mailbox access.
