@@ -1,4 +1,4 @@
-Commands used to update commands in powershell
+# Commands used to update commands in powershell
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process -Force
 
