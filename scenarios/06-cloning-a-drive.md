@@ -6,6 +6,12 @@ A user needed additional storage space on their computer. Instead of reinstallin
 
 Rescuezilla was used to copy the operating system, applications, settings, and files from the original drive to the replacement SSD.
 
+## links or references
+
+- Rescuezilla: https://rescuezilla.com/
+- balenaetcher: https://etcher.balena.io/
+
+
 ## Tools Used
 
 - Rescuezilla
@@ -22,6 +28,8 @@ Rescuezilla was used to copy the operating system, applications, settings, and f
 3. Select the Rescuezilla ISO.
 4. Select the USB flash drive.
 5. Flash Rescuezilla onto the USB drive.
+
+**flashing the iso will erase all data**
 
 ### 2. Connect the Drives
 
@@ -58,6 +66,10 @@ After starting Windows, the computer detected the larger SSD. However, some of t
 
 Command-line tools were used to extend the Windows partition into the unallocated space. After completing this step, Windows displayed the full usable capacity of the new SSD.
 
+![1](../screenshots/cloningadrive/carbon(2).png)
+
+Above are the commands used to free up the allocated disk space via cmd/powershell
+
 ## Verification
 
 The following items were tested:
@@ -72,6 +84,10 @@ The following items were tested:
 ## Result
 
 The original drive was successfully cloned to the larger SSD. Windows booted normally, the existing files and applications remained available, and the Windows partition was extended to use the additional storage.
+
+## Screenshots
+
+Screenshots were not captured during the original cloning process. The steps and commands used have been documented above.
 
 ## Lessons Learned
 
